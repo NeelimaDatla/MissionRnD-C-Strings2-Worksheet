@@ -19,6 +19,7 @@ original String
 
 char * get_sub_string(char *str, int i, int j){
 	char* str2 = (char *)malloc(j + 1);
+	
 	if (i > j)
 		return NULL;
 	if (str == NULL)
